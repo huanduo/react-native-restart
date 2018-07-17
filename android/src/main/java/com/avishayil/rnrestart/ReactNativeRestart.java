@@ -23,7 +23,6 @@ public class ReactNativeRestart extends ReactContextBaseJavaModule {
     public ReactNativeRestart(ReactApplicationContext reactContext) {
         super(reactContext);
     }
-
     private void loadBundleLegacy() {
         final Activity currentActivity = getCurrentActivity();
         if (currentActivity == null) {
@@ -66,6 +65,9 @@ public class ReactNativeRestart extends ReactContextBaseJavaModule {
 
     private static ReactInstanceHolder mReactInstanceHolder;
 
+    public static void setReactInstanceHolder(ReactInstanceHolder mReactInstanceHolder2){
+        mReactInstanceHolder=mReactInstanceHolder2;
+    }
     static ReactInstanceManager getReactInstanceManager() {
         if (mReactInstanceHolder == null) {
             return null;
