@@ -1,6 +1,6 @@
 {
   "name": "react-native-restart-ming",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "React Native Restart Component",
   "main": "index",
   "scripts": {
@@ -14,11 +14,11 @@
     "restart"
   ],
   "bugs": {
-    "url": "https://github.com/huanduo/react-native-restart/issues"
+    "url": "https://github.com/huanduo/react-native-restart-ming/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://git@github.com:huanduo/react-native-restart.git"
+    "url": "git://git@github.com:huanduo/react-native-restart-ming.git"
   },
   "author": "zhouminghua <yifan20@qq.com>",
   "license": "MIT"
